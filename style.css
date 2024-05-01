@@ -206,7 +206,7 @@ body {
     display: grid;
     grid-template-areas: "one one two five" "three four four five";
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     max-width: 65rem;
     margin: 1rem;
   }
