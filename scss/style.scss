@@ -19,7 +19,7 @@
     --neutral-clr-light-hsl: hsl(var(--neutral-clr-light));
 
     --opacity-normal: 50%;
-    --opacity-mediuam: 70%;
+    --opacity-medium: 70%;
 
     --ff-all: 'Barlow Semi Condensed', Arial, sans-serif;
 
@@ -208,6 +208,9 @@ body {
     body {
         display: grid;
         place-content: center;
+    }
+    .card[data-card-color="purple"] {
+        background-position: 80% 0;
     }
     .wrapper {
         display: grid;
